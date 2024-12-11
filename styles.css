@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    overflow: hidden;
+}
+
+header {
+    background-color: beige;
+    padding: 10px 20px;    
+}
+
+.site-nav1 {
+	text-align:center;
+    font-size: 20px;
+}
+
+  .site-nav1 ul, 
+  .site-nav1 li,
+  .site-nav1 a {
+    margin: 0; 
+    padding: 0;
+	display: inline-block;
+    text-decoration: none;
+    transition: 0.3s  ease;
+    color: black;
+  }
+
+  .site-nav1 a:hover {
+    color: grey;
+  }
+
+.logo {
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto", serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;  
+}
+
+.toggleButton {
+    background-color: goldenrod;
+    color: white;
+    width: 150px;
+    height: 50px;
+}
+
+.toggleButton:hover {
+    background-color: grey;
+    transition: 0.3s  ease;
+}
+
+.verborgen {
+    display: none;
+}
+
+.showing-more {
+    display: block;
+}
+
+
+/* Validatie styling  */
+
+form {
+    width: 13%;
+}
+
