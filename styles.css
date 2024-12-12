@@ -67,6 +67,10 @@ header {
 /* Validatie styling  */
 
 form {
-    width: 13%;
+    width: 20%;
+}
+
+fieldset:has(:user-invalid) {
+    background-color: burlywood;
 }
 

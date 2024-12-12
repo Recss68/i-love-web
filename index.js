@@ -16,3 +16,4 @@ document.querySelector('.toggleButton').addEventListener('click', function () {
         verborgenText.classList.add('verborgen');
     }
 });
+
