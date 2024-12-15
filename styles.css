@@ -78,6 +78,21 @@ body {
     border-color: #252530;
 }
 
+
+/* Styling Navigation  */
+
+header {
+    color: white; 
+}
+
+#nav {
+    display: none;
+}
+
+i {
+    color: white;
+}
+
 /* Validatie styling  */
 
 form {
