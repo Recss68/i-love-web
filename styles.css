@@ -11,13 +11,39 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
+    height: 100vh; /* Zorgt ervoor dat de container de volledige hoogte van het scherm gebruikt */
 }
+
+
+/* .titel {
+    color: white;
+    font-size: 80px;
+} */
 
 .titel {
     color: white;
     font-size: 80px;
-}
+    width: 21ch;
+    animation: typing 2s steps(21), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 2em;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
 
 
 /* Intro tekst */
@@ -33,6 +59,7 @@ body {
     animation: fadeInBorder 3s forwards;
     transition: transform 0.3s ease, box-shadow 0.3s ease; /* Soepele overgang voor vergroting en schaduw */
 }
+
 
 /* Border animatie */
 @keyframes fadeInBorder {
@@ -85,13 +112,49 @@ header {
     color: white; 
 }
 
-#nav {
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+  }
+  
+  .topnav #links {
+    display: none;
+  }
+  
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  .topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .topnav a:hover {
+    color: #778DA9;
+    transition: ease 0.2s;
+  }
+
+  .active {
+    background-color: #415A77;
+    color: white;
+  }
+
+/* #nav {
     display: none;
 }
 
 i {
     color: white;
-}
+} */
 
 /* Validatie styling  */
 
