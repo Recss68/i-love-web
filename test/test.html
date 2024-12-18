@@ -1,47 +1,167 @@
-<!-- <!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="nl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test Room</title>
+    <title>Homepagina</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <style>
-.wrapper {
-  height: 100vh;
-  /*This part is important for centering*/
-  display: grid;
-  place-items: center;
+  /* Algemene stijlen */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
 
-.typing-demo {
-  width: 20ch;
-  animation: typing 2s steps(20), blink .5s step-end infinite alternate;
-  white-space: nowrap;
-  overflow: hidden;
-  border-right: 3px solid;
-  font-family: monospace;
-  font-size: 2em;
+body {
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
 }
 
-@keyframes typing {
-  from {
-    width: 0
-  }
+.container-home {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Volledige schermhoogte */
+    padding: 20px;
 }
-    
-@keyframes blink {
-  50% {
-    border-color: transparent
-  }
+
+/* Journal Sectie (Links) */
+.journal-section {
+    flex: 1;
+    text-align: left;
 }
+
+.journal-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.journal-entries {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.entry {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    width: 80%;
+    max-width: 400px;
+}
+
+/* Centraal Uitgelijnde Content */
+.center-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex: 7;
+}
+
+.title-section h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.buttons-section {
+    margin-top: 20px;
+}
+
+/* .btn {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.primary {
+    background: #000;
+    color: #fff;
+}
+
+.secondary {
+    background: #eee;
+    color: #000;
+} */
+
+/* .btn:hover {
+    background: #444;
+    color: #fff;
+} */
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container-home {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .journal-section,
+    .center-content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .journal-section h2 {
+        text-align: center;
+    }
+
+    .entry {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .title-section h1 {
+        font-size: 2rem;
+    }
+
+    /* .btn {
+        font-size: 0.9rem;
+        width: 100%;
+    } */
+}
+
 </style>
-</head>
 <body>
-    <div class="wrapper">
-        <div class="typing-demo">
-          This is a typing demo.
+  <main class="container-home">
+    <!-- MY JOURNAL (Links) -->
+    <section class="journal-section">
+        <h2>MY JOURNAL</h2>
+        <div class="journal-entries">
+            <div class="entry">
+                <p class="date"><strong>01-01-2024</strong></p>
+                <p>Lorem ipsum</p>
+            </div>
+            <div class="entry">
+                <p class="date"><strong>01-01-2024</strong></p>
+                <p>Lorem ipsum</p>
+            </div>
         </div>
-    </div>
+    </section>
+
+    <!-- Titel en Knoppen (Centraal) -->
+    <section class="center-content">
+        <div class="title-section">
+            <h1>Recep Yildiz</h1>
+        </div>
+        <div class="buttons-section">
+            <a href="#" class="btn primary">OVER MIJ</a>
+            <a href="#" class="btn secondary">Learning Journal</a>
+        </div>
+    </section>
+</main>
 </body>
-</html> -->
+</html>
