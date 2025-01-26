@@ -1,11 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-body {
-    overflow: hidden;
-    background-color: #252530;
-    font-family: 'Roboto';
+:root { 
+  --text-color: #fff;
+  --bg-color: #252530; 
+  --extra-color-1: azure;
+
+      /* font-size */
+      --fs-xxl: 2.25rem;
+      --fs-xl: 1.5rem;
+      --fs-m: 1.125rem;
+      --fs-s: 1rem;
 }
 
+
+body {
+    overflow: hidden;
+    background-color: var(--bg-color);
+    font-family: 'Roboto';
+}
 
 .container-landing {
     display: flex;
@@ -17,7 +29,7 @@ body {
 
 
 .titel {
-    color: white;
+    color: var(--text-color);
     font-size: 80px;
     width: 37ch;
     animation: typing 2s steps(37), blink .5s step-end infinite alternate;
@@ -40,48 +52,10 @@ body {
     }
   }
 
-
-/* Intro tekst */
-.intro-text {
-    color: white;
-    font-size: 1.2rem; /* Kleinere tekstgrootte */
-    text-align: center;
-    display: inline-block;
-    padding: 10px;
-    border: 2px solid transparent;
-    position: relative;
-    opacity: 0;
-    animation: fadeInBorder 3s forwards;
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Soepele overgang voor vergroting en schaduw */
-}
-
-
-/* Border animatie */
-@keyframes fadeInBorder {
-    0% {
-        opacity: 0;
-        border-color: transparent;
-    }
-    50% {
-        opacity: 1;
-        border-color: white;
-    }
-    100% {
-        opacity: 1;
-        border-color: #fff;
-    }
-}
-
-/* Hover effect voor vergroting */
-.intro-text:hover {
-    transform: scale(1.1); /* Vergroot de tekst soepel */
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Voeg een lichte schaduw toe bij hover */
-}
-
 /* Button styling */
-.animated {
+.landing-btn {
     background-color: #fff;
-    color: #000;
+    color: #252530;
     border: 2px solid #fff;
     padding: 15px 30px;
     font-size: 1rem;
@@ -90,71 +64,125 @@ body {
     cursor: pointer;
     border-radius: 5px;
     transition: all 0.3s ease;
+    &:hover {
+        transform: scale(1.1);
+    }
 }
-
-/* Hover effect */
-.animated:hover {
-    background-color: #252530;
-    color: #fff;
-    transform: scale(1.1);
-    border-color: #252530;
-}
-
 
 /* Styling Navigation  */
 
 header {
-    color: white; 
-}
-
-.topnav {
-    overflow: hidden;
-    background-color: #333;
-    position: relative;
-    
-  }
-  
-  .topnav #links {
-    display: none;
-  }
-  
-  .topnav a {
-    color: white;
-    padding: 50px 40px;
-    text-decoration: none;
-    font-size: 20px;
-    display: block;
+  color: var(--text-color);
+  text-align: center;
+  .logo {
+    font-size: var(--fs-xxl);
     font-weight: bold;
   }
-  
-  .topnav a.icon {
-    background: black;
-    display: block;
-    position: absolute;
-    right: 0;
-    top: 0;
+  hr {
+    color: var(--text-color);
+    height: 1px;
+    background-color: var(--text-color);
   }
-  
-  .topnav a:hover {
-    color: #778DA9;
-    transition: ease 0.2s;
+  a {
+    text-decoration: none;
+    color: var(--text-color);
   }
-
-  .active {
-    background-color: #415A77;
-    color: white;
+  .nav{
+    margin-top: 20px;
+    line-height: 10px;
+    a {
+      margin-right: 10px;
+      font-size: var(--fs-s);
+      &:hover {
+        font-size: var(--fs-m);
+        transition: font-size 0.3s ease-in-out;
+        color: var(--extra-color-1);
+      }
+    }
   }
-
+}
 
   /* Home Content */
   
 
-
-form {
-    width: 20%;
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  button {
+    margin-top: 10px;
+  }
 }
 
-fieldset:has(:user-invalid) {
-    background-color: burlywood;
+/* Intro tekst */
+.intro-text {
+  color: white;
+  font-size: 1.2rem;
+  text-align: center;
+  display: inline-block;
+  padding: 10px;
+  border: 2px solid transparent;
+  position: relative;
+  opacity: 0;
+  animation: fadeInBorder 3s forwards;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  &:hover {
+      transform: scale(1.1);
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); 
+  }
 }
 
+
+
+@keyframes fadeInBorder {
+  0% {
+      opacity: 0;
+      border-color: transparent;
+  }
+  50% {
+      opacity: 1;
+      border-color: white;
+  }
+  100% {
+      opacity: 1;
+      border-color: #fff;
+  }
+}
+
+/* Journal Page Styling */
+
+.journal-head-container {
+  transform: scale(0.7);
+  button {
+    margin-right: 20px;
+  }
+}
+
+.column {
+  width: 100%;
+  display: block;
+  margin-bottom: 20px;
+  @media screen and (min-width: 1000px) {
+    float: left;
+    width: 32%;
+    padding: 0 10px;
+  }
+}
+
+.row {
+  margin: 0 -5px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  margin-bottom: 10px;
+  &:hover {
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.1);
+  }
+}
