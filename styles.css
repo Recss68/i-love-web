@@ -5,41 +5,43 @@
   --bg-color: #252530; 
   --extra-color-1: azure;
 
-      /* font-size */
-      --fs-xxl: 2.25rem;
-      --fs-xl: 1.5rem;
-      --fs-m: 1.125rem;
-      --fs-s: 1rem;
+  /* font-size */
+  --fs-xxl: 2.25rem;
+  --fs-xl: 1.5rem;
+  --fs-m: 1.125rem;
+  --fs-s: 1rem;
 }
 
 
 body {
-    overflow: hidden;
     background-color: var(--bg-color);
     font-family: 'Roboto';
 }
 
 .container-landing {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; /* Zorgt ervoor dat de container de volledige hoogte van het scherm gebruikt */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 95vh; 
+  transform: scale(0.7);
+  @media (min-width: 600px) {
+    transform: scale(1);
+  }
 }
 
 
 .titel {
-    color: var(--text-color);
-    font-size: 80px;
-    width: 37ch;
-    animation: typing 2s steps(37), blink .5s step-end infinite alternate;
-    white-space: nowrap;
-    overflow: hidden;
-    border-right: 3px solid;
-    font-family: monospace;
-    font-size: 2em;
-  }
-  
+  color: var(--text-color);
+  font-size: 80px;
+  width: 37ch;
+  animation: typing 2s steps(37), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 2em;
+}
   @keyframes typing {
     from {
       width: 0
@@ -54,19 +56,19 @@ body {
 
 /* Button styling */
 .landing-btn {
-    background-color: #fff;
-    color: #252530;
-    border: 2px solid #fff;
-    padding: 15px 30px;
-    font-size: 1rem;
-    font-weight: bold;
-    text-transform: uppercase;
-    cursor: pointer;
-    border-radius: 5px;
-    transition: all 0.3s ease;
-    &:hover {
-        transform: scale(1.1);
-    }
+  background-color: #fff;
+  color: #252530;
+  border: 2px solid #fff;
+  padding: 15px 30px;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  &:hover {
+    transform: scale(1.1);
+  }
 }
 
 /* Styling Navigation  */
@@ -103,7 +105,6 @@ header {
 }
 
   /* Home Content */
-  
 
 .home-container {
   display: flex;
@@ -129,12 +130,10 @@ header {
   animation: fadeInBorder 3s forwards;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   &:hover {
-      transform: scale(1.1);
+    transform: scale(1.1);
       box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); 
   }
 }
-
-
 
 @keyframes fadeInBorder {
   0% {
@@ -164,7 +163,7 @@ header {
   width: 100%;
   display: block;
   margin-bottom: 20px;
-  @media screen and (min-width: 1000px) {
+  @media (min-width: 1000px) {
     float: left;
     width: 32%;
     padding: 0 10px;
