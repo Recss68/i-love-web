@@ -185,3 +185,19 @@ header {
     transform: scale(1.1);
   }
 }
+
+.planner-head {
+  color: white;
+  text-align: center;
+}
+
+form {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  button {
+    width: 100px;
+  }
+}
