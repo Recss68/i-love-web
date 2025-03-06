@@ -1,167 +1,109 @@
 <!DOCTYPE html>
-<html lang="nl">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepagina</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Cards Carousel</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+
+        .carousel-container {
+            position: relative;
+            width: 80%;
+            max-width: 600px;
+            overflow: hidden;
+        }
+
+        .carousel {
+            display: flex;
+            gap: 15px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .card {
+            min-width: 100%;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+        }
+
+        button {
+            background-color: #0078D4;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #005ea6;
+        }
+    </style>
 </head>
-<style>
-  /* Algemene stijlen */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-}
-
-body {
-    background-color: #f9f9f9;
-    color: #333;
-    line-height: 1.6;
-}
-
-.container-home {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh; /* Volledige schermhoogte */
-    padding: 20px;
-}
-
-/* Journal Sectie (Links) */
-.journal-section {
-    flex: 1;
-    text-align: left;
-}
-
-.journal-section h2 {
-    font-size: 1.8rem;
-    margin-bottom: 15px;
-}
-
-.journal-entries {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
-
-.entry {
-    background: #fff;
-    border: 1px solid #ddd;
-    padding: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
-    width: 80%;
-    max-width: 400px;
-}
-
-/* Centraal Uitgelijnde Content */
-.center-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    flex: 7;
-}
-
-.title-section h1 {
-    font-size: 3rem;
-    margin-bottom: 20px;
-}
-
-.buttons-section {
-    margin-top: 20px;
-}
-
-/* .btn {
-    display: inline-block;
-    text-decoration: none;
-    padding: 10px 20px;
-    margin: 10px;
-    border-radius: 25px;
-    font-weight: bold;
-    transition: background 0.3s ease;
-}
-
-.primary {
-    background: #000;
-    color: #fff;
-}
-
-.secondary {
-    background: #eee;
-    color: #000;
-} */
-
-/* .btn:hover {
-    background: #444;
-    color: #fff;
-} */
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    .container-home {
-        flex-direction: column;
-        gap: 30px;
-    }
-
-    .journal-section,
-    .center-content {
-        width: 100%;
-        text-align: center;
-    }
-
-    .journal-section h2 {
-        text-align: center;
-    }
-
-    .entry {
-        width: 90%;
-        margin: 0 auto;
-    }
-}
-
-@media (max-width: 480px) {
-    .title-section h1 {
-        font-size: 2rem;
-    }
-
-    /* .btn {
-        font-size: 0.9rem;
-        width: 100%;
-    } */
-}
-
-</style>
 <body>
-  <main class="container-home">
-    <!-- MY JOURNAL (Links) -->
-    <section class="journal-section">
-        <h2>MY JOURNAL</h2>
-        <div class="journal-entries">
-            <div class="entry">
-                <p class="date"><strong>01-01-2024</strong></p>
-                <p>Lorem ipsum</p>
-            </div>
-            <div class="entry">
-                <p class="date"><strong>01-01-2024</strong></p>
-                <p>Lorem ipsum</p>
-            </div>
-        </div>
-    </section>
 
-    <!-- Titel en Knoppen (Centraal) -->
-    <section class="center-content">
-        <div class="title-section">
-            <h1>Recep Yildiz</h1>
+    <div class="carousel-container">
+        <div class="carousel">
+            <div class="card">Card 1: Your Text Here</div>
+            <div class="card">Card 2: Your Text Here</div>
+            <div class="card">Card 3: Your Text Here</div>
         </div>
-        <div class="buttons-section">
-            <a href="#" class="btn primary">OVER MIJ</a>
-            <a href="#" class="btn secondary">Learning Journal</a>
+        <div class="buttons">
+            <button id="prev">← Prev</button>
+            <button id="next">Next →</button>
         </div>
-    </section>
-</main>
+    </div>
+
+    <script>
+        const carousel = document.querySelector(".carousel");
+        const prevBtn = document.getElementById("prev");
+        const nextBtn = document.getElementById("next");
+        let index = 0;
+
+        function updateCarousel() {
+            const cardWidth = document.querySelector(".card").offsetWidth + 15; // Card width + gap
+            carousel.style.transform = `translateX(${-index * cardWidth}px)`;
+        }
+
+        nextBtn.addEventListener("click", () => {
+            if (index < document.querySelectorAll(".card").length - 1) {
+                index++;
+                updateCarousel();
+            }
+        });
+
+        prevBtn.addEventListener("click", () => {
+            if (index > 0) {
+                index--;
+                updateCarousel();
+            }
+        });
+
+        window.addEventListener("resize", updateCarousel);
+    </script>
+
 </body>
 </html>
