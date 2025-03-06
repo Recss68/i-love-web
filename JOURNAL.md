@@ -80,3 +80,10 @@
     > Ervaringen van vorige bedrijven zijn in belang, dit heeft hem heel erg geholpen. Dus ervaring meenemen is altijd handig.
     > 14 mei 2019 was de orginele launch.
     
+
+- Dave Bitter
+
+- Dave is een Senior Front-end Consultant bij iO. 
+> Hij vertelde ons over zijn expertise in AI-gedreven voice interfaces, dit doet regelmatig bij internationale conferenties. Hij is een expert erkend door Google en weet alles over hoe kunstmatige intelligentie de   gebruikerservaring kan verbeteren. Daarnaast heeft hij veel ervaring met het toepassen van spraakgestuurde interfaces, ook tijdens deze lezing liet hij ons een spraakgestuurde AI interface zien, en vertelde hij hoe hij dit heeft kunnen maken.
+
+Ik vond het erg indrukwekkend omdat AI natuurlijk tegenwoordig veel wordt gebruikt.
