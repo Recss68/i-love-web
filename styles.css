@@ -174,32 +174,6 @@ header {
   }
 }
 
-.column {
-  width: 100%;
-  display: block;
-  margin-bottom: 20px;
-  @media (min-width: 1000px) {
-    float: left;
-    width: 32%;
-    padding: 0 10px;
-  }
-}
-
-.row {
-  margin: 0 -5px;
-}
-
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  padding: 16px;
-  text-align: center;
-  background-color: #f1f1f1;
-  margin-bottom: 10px;
-  &:hover {
-    transition: transform 0.3s ease-in-out;
-    transform: scale(1.1);
-  }
-}
 
 .planner-head {
   color: white;
