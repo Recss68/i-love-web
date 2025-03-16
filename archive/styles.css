@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root { 
+  --text-color: #fff;
+  --bg-color: #252530; 
+  --extra-color-1: azure;
+  --hover-color: #4a7474;
+
+  /* font-size */
+  --fs-xxl: 2.25rem;
+  --fs-xl: 1.5rem;
+  --fs-m: 1.125rem;
+  --fs-s: 1rem;
+}
+
+
+body {
+    background-color: var(--bg-color);
+    font-family: 'Roboto';
+}
+
+.container-landing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 95vh; 
+  transform: scale(0.7);
+  @media (min-width: 600px) {
+    transform: scale(1);
+  }
+}
+
+
+.titel {
+  color: var(--text-color);
+  font-size: 80px;
+  width: 37ch;
+  animation: typing 2s steps(37), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 2em;
+}
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+
+/* Button styling */
+.landing-btn {
+  background-color: #fff;
+  color: #252530;
+  border: 2px solid #fff;
+  padding: 15px 30px;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+/* Styling Navigation  */
+
+header {
+  color: var(--text-color);
+  text-align: center;
+  .logo {
+    font-size: var(--fs-xxl);
+    font-weight: bold;
+  }
+  hr {
+    color: var(--text-color);
+    height: 1px;
+    background-color: var(--text-color);
+  }
+  ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    cursor: pointer;
+    a{
+      &:hover {
+        color: var(--hover-color);
+        transition: color 0.3s ease-in-out;
+      }
+    }
+
+  }
+  a {
+    text-decoration: none;
+    color: var(--text-color);
+  }
+  .nav{
+    margin-top: 20px;
+    line-height: 10px;
+    a {
+      margin-right: 10px;
+      font-size: var(--fs-s);
+      &:hover {
+        font-size: var(--fs-m);
+        transition: font-size 0.3s ease-in-out;
+        color: var(--extra-color-1);
+      }
+    }
+  }
+}
+
+  /* Home Content */
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  button {
+    margin-top: 10px;
+  }
+}
+
+/* Intro tekst */
+.intro-text {
+  color: white;
+  font-size: 1.2rem;
+  text-align: center;
+  display: inline-block;
+  padding: 10px;
+  border: 2px solid transparent;
+  position: relative;
+  opacity: 0;
+  animation: fadeInBorder 3s forwards;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  &:hover {
+    transform: scale(1.1);
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); 
+  }
+}
+
+@keyframes fadeInBorder {
+  0% {
+      opacity: 0;
+      border-color: transparent;
+  }
+  50% {
+      opacity: 1;
+      border-color: white;
+  }
+  100% {
+      opacity: 1;
+      border-color: #fff;
+  }
+}
+
+/* Journal Page Styling */
+
+.journal-head-container {
+  transform: scale(0.7);
+  button {
+    margin-right: 20px;
+  }
+}
+
+.column {
+  width: 100%;
+  display: block;
+  margin-bottom: 20px;
+  @media (min-width: 1000px) {
+    float: left;
+    width: 32%;
+    padding: 0 10px;
+  }
+}
+
+.row {
+  margin: 0 -5px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  margin-bottom: 10px;
+  &:hover {
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.1);
+  }
+}
+
+/* Planner page styling */
+
+/* .planner-head {
+  color: white;
+  text-align: center;
+}
+
+form {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  button {
+    width: 100px;
+  }
+} */
+
+.planner-head {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: var(--text-color);
+}
+
+form {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+  gap: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  button {
+    background: #0078D4;
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s;
+    &:hover {
+      background: #005a9e;
+    }
+  }
+
+  label {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: 14px;
+    color: var(--text-color);
+  }
+}
+
+input, textarea {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 5px;
+  border: none;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+}
+
+input::placeholder, textarea::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}

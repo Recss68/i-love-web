@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards Carousel</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+
+        .carousel-container {
+            position: relative;
+            width: 80%;
+            max-width: 600px;
+            overflow: hidden;
+        }
+
+        .carousel {
+            display: flex;
+            gap: 15px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .card {
+            min-width: 100%;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+        }
+
+        button {
+            background-color: #0078D4;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #005ea6;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="carousel-container">
+        <div class="carousel">
+            <div class="card">Card 1: Your Text Here</div>
+            <div class="card">Card 2: Your Text Here</div>
+            <div class="card">Card 3: Your Text Here</div>
+        </div>
+        <div class="buttons">
+            <button id="prev">← Prev</button>
+            <button id="next">Next →</button>
+        </div>
+    </div>
+
+    <script>
+        const carousel = document.querySelector(".carousel");
+        const prevBtn = document.getElementById("prev");
+        const nextBtn = document.getElementById("next");
+        let index = 0;
+
+        function updateCarousel() {
+            const cardWidth = document.querySelector(".card").offsetWidth + 15; // Card width + gap
+            carousel.style.transform = `translateX(${-index * cardWidth}px)`;
+        }
+
+        nextBtn.addEventListener("click", () => {
+            if (index < document.querySelectorAll(".card").length - 1) {
+                index++;
+                updateCarousel();
+            }
+        });
+
+        prevBtn.addEventListener("click", () => {
+            if (index > 0) {
+                index--;
+                updateCarousel();
+            }
+        });
+
+        window.addEventListener("resize", updateCarousel);
+    </script>
+
+</body>
+</html>
