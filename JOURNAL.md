@@ -1,5 +1,21 @@
 # MY JOURNAL
 
+14-3-2025
+Hoe kunnen we goed werken in de studio?
+
+Goed:
+- Genoeg Laders
+- Tafels zijn met deze opstelling chill
+- Whiteboard is essentieel en handig
+Fout:
+- Vaak is de geur een reden voor hoofdpijn
+- Aquarium koud 
+- Langs de liften werken is een beetje rumoerig ( dit is niet persee constant )
+
+House Rules
+* Meer vrijheid met waar een student kan werken
+* Duidelijke tijdsplanning
+
 28-2-2025 - Vragenlijst / Zelf Test
 
 1.Ik kan uitleggen wat NodeJS is en waarvoor het gebruikt wordt
