@@ -65,6 +65,7 @@ body {
         position: relative;
         top: 15vh;   
         margin-right: 20px;
+        z-index: 2;
         ul {
         list-style: none;
         text-align: center;
@@ -78,7 +79,7 @@ body {
             padding: 20px;
             width: 10em;
             border-radius: 20px;
-            font-size: var(--size-x);
+            font-size: var(--size-default);
             &:hover {
                 background-color: var(--text-color);
             }
