@@ -64,7 +64,7 @@ House Rules
     - 3 pnt
     
 16.Ik kan in Liquid een controle maken waarmee de avatar niet getoond wordt als deze niet in whois.fdnd.nl is ingevuld
-    - 1 pnt
+    - 3 pnt
     
 17.Ik heb een strategie voor debuggen in Liquid
     - 0 pnt
@@ -85,7 +85,7 @@ House Rules
     - 1 pnt
     
 23.Ik begrijphet verschil tussenclient-side JavaScript enserver-side JavaScript en wanneer ik welkehet handigst inkan zetten
-    - 1 pnt
+    - 3 pnt
     
 24.Ik kan formulier data die is ge-POST opslaan in een variabele op de server en gebruiken bij het renderen van een pagina
     - 3 pnt
