@@ -19,55 +19,55 @@ House Rules
 28-2-2025 - Vragenlijst / Zelf Test
 
 1.Ik kan uitleggen wat NodeJS is en waarvoor het gebruikt wordt
-    > 3 pnt, ik denk wel dat ik kan struikelen over mn woorden als ik het moet uitleggen, maar ik kan het wel toepassen.
+    - 3 pnt, ik denk wel dat ik kan struikelen over mn woorden als ik het moet uitleggen, maar ik kan het wel toepassen.
 2.Ik weet wat het doel van package.json isen heb hier aanpassingen ingemaakt
-    > 3 pnt
+    - 3 pnt
 3.Ik heb met npm packages geïnstalleerd en gebruikt in het bestand server.js
-    > 3 pnt
+    - 3 pnt
 4.Ik kanmet commando’s in de terminal een NodeJSproject stoppen en starten
-    > 3 pnt
+    - 3 pnt
 5.Ik weet waarom ik mijn NodeJS project regelmatig moet herstarten en kan dit uitleggen
-    > 2 pnt
+    - 2 pnt
 6.Ik heb een strategie voor debuggen inNodeJS
-    > 3 pnt
+    - 3 pnt
 7.Ik kan uitleggen wat Express.js doet en waarom het nodig is om met NodeJS een website te bouwen
-    > 2 pnt
+    - 2 pnt
 8.Ik weet wat routes zijn en kan zelf een nieuwe route aanmaken
-    > 3 pnt
+    - 3 pnt
 9.Ik weetwat request en response argumenten zijn in een functie voorhet laden van data
-    > 3 pnt
+    - 3 pnt
 10.Ik heb gebruik gemaakt van eenrequest parameter om specifiekedata teladen
-    > 3 pnt
+    - 3 pnt
 11.Ik kan uitleggen wat Liquid doet en waarom het nodig is om met Express.js een website te maken
-    > 2 pnt
+    - 2 pnt
 12.Ik weet hoe ik data naar Liquid verstuur om dit te gebruiken bij het renderenvan een pagina
-    > 3 pnt
+    - 3 pnt
 13.Ik weet hoe ik Liquid filters toe kan passen en waar ik kan vinden hoe die werken
-    > 2 pnt
+    - 2 pnt
 14.Ik heb een nieuwe route gemaakt en nieuwe data meegegeven aan een Liquid view
-    > 3 pnt
+    - 3 pnt
 15.Ik weet waar een foreach loop voor gebruikt wordt en pas het toe in een Liquid view om HTML te renderen
-    > 3 pnt
+    - 3 pnt
 16.Ik kan in Liquid een controle maken waarmee de avatar niet getoond wordt als deze niet in whois.fdnd.nl is ingevuld
-    > 1 pnt
+    - 1 pnt
 17.Ik heb een strategie voor debuggen in Liquid
-    > 0 pnt
+    - 0 pnt
 18.Ik kan data fetchen uit een REST API
-    > 3 pnt
+    - 3 pnt
 19.Ik snap het verschil tussen HTTP requests van de methodes GET en POST
-    > 3 pnt
+    - 3 pnt
 20.Ik kan data uit een REST API filteren of sorteren
-    > 3 pnt
+    - 3 pnt
 21.Ik snap wat het async keyword doet in JavaScript code
-    > 1 pnt
+    - 1 pnt
 22.Ik weetwat het doel is van een try/catch block en kanhet gebruiken bijhet parsenvan JSON
-    > 1 pnt
+    - 1 pnt
 23.Ik begrijphet verschil tussenclient-side JavaScript enserver-side JavaScript en wanneer ik welkehet handigst inkan zetten
-    > 1 pnt
+    - 1 pnt
 24.Ik kan formulier data die is ge-POST opslaan in een variabele op de server en gebruiken bij het renderen van een pagina
-    > 3 pnt
+    - 3 pnt
 25.Ik kan formulier data die is ge-POST door middelvan een POST of PATCHHTTP request opslaan in de REST API
-    > 3 pnt
+    - 3 pnt
 
 ## We love Web - Spreekuren
 
