@@ -20,6 +20,7 @@ House Rules
 
 1.Ik kan uitleggen wat NodeJS is en waarvoor het gebruikt wordt
     - 3 pnt, ik denk wel dat ik kan struikelen over mn woorden als ik het moet uitleggen, maar ik kan het wel toepassen.
+    
 2.Ik weet wat het doel van package.json isen heb hier aanpassingen ingemaakt
     - 3 pnt
 3.Ik heb met npm packages geïnstalleerd en gebruikt in het bestand server.js
