@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f3f4f6;
+}
+
+.card {
+  background-color: #e5e7eb;
+  width: 340px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+}
+
+.expand {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+  @media (min-width: 600px) {
+    transform: scale(1.5);
+  }
+}
+
+.banner {
+  background-color: #81c784;
+  height: 120px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  h2 {
+    font-size: 4rem;
+    color: rgba(255, 255, 255, 0.2);
+    font-weight: bold;
+    position: absolute;
+  }
+}
+
+.profile-img{
+  img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid white;
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+.content {
+  margin-top: 80px;
+  padding: 20px;
+}
+
+.name {
+  font-size: 25px;
+  font-weight: bold;
+  color: #333;
+}
+
+.role {
+  font-size: 17px;
+  color: #666;
+}
+
+.bio {
+  margin-top: 12px;
+  color: #555;
+}
+
+footer {
+  margin-top: 20px;
+  font-size: 12px;
+  a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #000;
+  }
+}
+
+nav {
+  position: absolute;
+  transform: scale(1.2);
+  top: 10px;
+  right: 10px;
+  svg {
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  button {
+    background: none;
+    border: none;
+  }
+}
