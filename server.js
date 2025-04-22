@@ -41,6 +41,10 @@ app.get('/', async function (request, response) {
    response.render('index.liquid', {person: personResponseJSON.data})
 })
 
+app.get('/lazy-loading', async function (request, response) {
+  response.render('loading-demo.liquid')
+})
+
 app.get('/eiland', async function (request, response) {
   response.render('eiland.liquid', {person: personResponseJSON.data})
 })
