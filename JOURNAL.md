@@ -1,5 +1,24 @@
 # MY JOURNAL
 
+13-06-2025
+We Love Web - Hidde de Vries
+
+Ging over hoe we de wereld groener kunnen maken op werk?
+Bij AI kijken ze ook hoe ze dat duurzamer kunnen doen
+
+Groener maken tijdens het werk, 5 stappen;
+1. Make smaller web pages, in 2011 waren websites 467kb zwaar en in 2025 waren websites 2678kb zwaar.
+- Use web platform features instead of libraries
+2. Support older devices
+- Dont be the reason for people to upgrade their devices
+3. Choose green hosting
+- Zie GWF lists voor een lijst met groene hosting bedrijven.
+4. Use only necessary features
+5. Stylesheets
+
+Tool voor compressie
+- ecograder
+
 14-3-2025
 Hoe kunnen we goed werken in de studio?
 
