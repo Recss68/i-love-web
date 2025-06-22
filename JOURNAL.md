@@ -1,7 +1,8 @@
 # MY JOURNAL
 
-13-06-2025
-We Love Web - Hidde de Vries
+## We love Web - Spreekuren
+
+13-06-2025 - Hidde de Vries
 
 Ging over hoe we de wereld groener kunnen maken op werk?
 Bij AI kijken ze ook hoe ze dat duurzamer kunnen doen
@@ -18,6 +19,46 @@ Groener maken tijdens het werk, 5 stappen;
 
 Tool voor compressie
 - ecograder
+
+--
+
+14-2-2025 - Kilian Valkhof
+
+- Oprichter van Polypane
+    > Het is een developers browser ( gebruikt door tien duizenden mensen door heel de wereld)
+    > Wordt gebruikt door grote bedrijven om programma's te bouwen.
+    > Al 20 jaar bezig in zijn vak.
+
+- Alles bouwt met vaart op basis van wat je hebt gedaan - Killian
+
+- Zijn eerste site is 11 jaar oud, dit heeft hij gemaakt op Microsoft frontpage, zijn eerste persoonlijke website is hier op dus gemaakt.
+    > Het renderen gebruikte net zoals word, niet erg optimaal dus.
+    
+- Veel vlieguren kunnen maken in zijn 16-30 jarige leeftijden, dit door veel websites te hebben kunnen maken voor duizenden mensen.
+    > Termen zoals responsive design kwamen pas tevoorschijn toen de iphones waren gelanceerd.
+    > Heeft in 2010 een file compresser gebouwt met python, wat vaak nog wordt gebruikt.
+
+- Designen ging veel soepeler omdat er een tool uit kwam genaamd 'sketch' dit is een soort gelijk concept net als Figma.
+
+- Heeft vaak tussendoor gewerkt aan polypane om een beeld te krijgen over wat hij precies nodig had om dit platform op te zetten. In 2017 was de eerste beta release van polypane.
+    > Met de feedback die hij daarop kreeg heeft ie verder kunnen bouwen tijdens deze release.
+    > Polypane was eerst gericht op de persoonlijke workflow van Killian dit heeft hij anders aangepakt omdat hij er op een gegeven moment van bewust was dat ieder een eigen manier van werken heeft.
+    > In 2019 is hij er volledig mee bezig geweest om de definitieve 1.0 versie uit te brengen. 
+    > Ervaringen van vorige bedrijven zijn in belang, dit heeft hem heel erg geholpen. Dus ervaring meenemen is altijd handig.
+    > 14 mei 2019 was de orginele launch.
+    
+Één zin wat mij erg bij bleef van zijn spreek uur was "Alles bouwt met vaart op basis van wat je hebt gedaan - Killian". Ik heb van dit spreekuur geleerd dat stoppen geen optie moet zijn en dat consistentie erg belangrijk is als je wat wilt bereiken.
+    
+--
+
+Dave Bitter
+
+- Dave is een Senior Front-end Consultant bij iO. 
+> Hij vertelde ons over zijn expertise in AI-gedreven voice interfaces, dit doet regelmatig bij internationale conferenties. Hij is een expert erkend door Google en weet alles over hoe kunstmatige intelligentie de   gebruikerservaring kan verbeteren. Daarnaast heeft hij veel ervaring met het toepassen van spraakgestuurde interfaces, ook tijdens deze lezing liet hij ons een spraakgestuurde AI interface zien, en vertelde hij hoe hij dit heeft kunnen maken.
+
+Ik vond het erg indrukwekkend omdat AI natuurlijk tegenwoordig veel wordt gebruikt. Ik heb geleerd van Dave in dit spreekuur dat side projeten erg handig kunnen zijn voor je portfolio, dus dat we alvast dingen kunnen verzinnen en kunnen uitvoeren voor onze portfolio.
+
+---------
 
 14-3-2025
 Hoe kunnen we goed werken in de studio?
@@ -112,40 +153,5 @@ House Rules
 25.Ik kan formulier data die is ge-POST door middelvan een POST of PATCHHTTP request opslaan in de REST API
     - 3 pnt
 
-## We love Web - Spreekuren
 
-14-2-2025 - Kilian Valkhof
-
-- Oprichter van Polypane
-    > Het is een developers browser ( gebruikt door tien duizenden mensen door heel de wereld)
-    > Wordt gebruikt door grote bedrijven om programma's te bouwen.
-    > Al 20 jaar bezig in zijn vak.
-
-- Alles bouwt met vaart op basis van wat je hebt gedaan - Killian
-
-- Zijn eerste site is 11 jaar oud, dit heeft hij gemaakt op Microsoft frontpage, zijn eerste persoonlijke website is hier op dus gemaakt.
-    > Het renderen gebruikte net zoals word, niet erg optimaal dus.
-    
-- Veel vlieguren kunnen maken in zijn 16-30 jarige leeftijden, dit door veel websites te hebben kunnen maken voor duizenden mensen.
-    > Termen zoals responsive design kwamen pas tevoorschijn toen de iphones waren gelanceerd.
-    > Heeft in 2010 een file compresser gebouwt met python, wat vaak nog wordt gebruikt.
-
-- Designen ging veel soepeler omdat er een tool uit kwam genaamd 'sketch' dit is een soort gelijk concept net als Figma.
-
-- Heeft vaak tussendoor gewerkt aan polypane om een beeld te krijgen over wat hij precies nodig had om dit platform op te zetten. In 2017 was de eerste beta release van polypane.
-    > Met de feedback die hij daarop kreeg heeft ie verder kunnen bouwen tijdens deze release.
-    > Polypane was eerst gericht op de persoonlijke workflow van Killian dit heeft hij anders aangepakt omdat hij er op een gegeven moment van bewust was dat ieder een eigen manier van werken heeft.
-    > In 2019 is hij er volledig mee bezig geweest om de definitieve 1.0 versie uit te brengen. 
-    > Ervaringen van vorige bedrijven zijn in belang, dit heeft hem heel erg geholpen. Dus ervaring meenemen is altijd handig.
-    > 14 mei 2019 was de orginele launch.
-    
-Één zin wat mij erg bij bleef van zijn spreek uur was "Alles bouwt met vaart op basis van wat je hebt gedaan - Killian". Ik heb van dit spreekuur geleerd dat stoppen geen optie moet zijn en dat consistentie erg belangrijk is als je wat wilt bereiken.
-    
-
-Dave Bitter
-
-- Dave is een Senior Front-end Consultant bij iO. 
-> Hij vertelde ons over zijn expertise in AI-gedreven voice interfaces, dit doet regelmatig bij internationale conferenties. Hij is een expert erkend door Google en weet alles over hoe kunstmatige intelligentie de   gebruikerservaring kan verbeteren. Daarnaast heeft hij veel ervaring met het toepassen van spraakgestuurde interfaces, ook tijdens deze lezing liet hij ons een spraakgestuurde AI interface zien, en vertelde hij hoe hij dit heeft kunnen maken.
-
-Ik vond het erg indrukwekkend omdat AI natuurlijk tegenwoordig veel wordt gebruikt. Ik heb geleerd van Dave in dit spreekuur dat side projeten erg handig kunnen zijn voor je portfolio, dus dat we alvast dingen kunnen verzinnen en kunnen uitvoeren voor onze portfolio.
 
