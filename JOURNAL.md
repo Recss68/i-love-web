@@ -1,93 +1,5 @@
 # MY JOURNAL
 
-# 🎯 Presentatie: Vergelijking van Techstacks — SvelteKit + Directus vs Vue + Sanity
-
-## 🧱 Inleiding
-In ons project maken wij gebruik van **SvelteKit** als front-end framework en **Directus** als headless CMS.  
-Daarnaast hebben wij een **zelfonderzoek** uitgevoerd naar een alternatieve stack: **Vue.js** in combinatie met **Sanity.io**.  
-
-Doel van deze vergelijking:
-- Evalueren **waarom SvelteKit + Directus geschikt is** voor ons project.  
-- Onderzoeken **wat de voor- en nadelen zijn** van Vue + Sanity als alternatief.  
-- Een bewuste keuze kunnen verantwoorden op basis van **performance, ontwikkelervaring en schaalbaarheid**.
-
----
-
-## ⚙️ Techstack 1: SvelteKit + Directus (onze keuze)
-
-### 🔹 Wat is SvelteKit?
-- Framework bovenop **Svelte**, een compiler die HTML, CSS en JS optimaliseert.
-- Code wordt bij buildtijd gecompileerd naar pure JS zonder runtime.
-- Zeer **snelle performance** (minder overhead dan React/Vue).
-- **File-based routing** en SSR standaard ingebouwd.
-
-### 🔹 Wat is Directus?
-- **Open-source headless CMS + database wrapper**.
-- Gebruikt een relationele database (bijv. PostgreSQL of MySQL) als backend.
-- API-first: genereert automatisch REST + GraphQL endpoints.
-- Geschikt voor **complexe datamodellen** en **role-based permissions**.
-
-### 🔹 Waarom dit goed werkt
-- Directus is ideaal als je **controle wilt over je data en database**.
-- SvelteKit is **super performant** en biedt **SSR, routing en endpoints out of the box**.
-- Geschikt voor **grotere, datagedreven applicaties**.
-- Alles is **self-hosted** – meer vrijheid en privacy.
-
----
-
-## ⚙️ Techstack 2: Vue + Sanity (zelfonderzoek)
-
-### 🔹 Wat is Vue.js?
-- Een progressief JavaScript-framework voor het bouwen van user interfaces.
-- Werkt declaratief met **component-based architectuur**.
-- Gebruikt **Vite** voor snelle build en hot reload.
-- Sterk type-support via **TypeScript**.
-
-### 🔹 Wat is Sanity.io?
-- **Headless CMS** met een volledig aanpasbare content-studio.
-- Data wordt beheerd via **GROQ** (Graph-Relational Object Queries).
-- Content wordt realtime gesynchroniseerd.
-- API-gebaseerd: makkelijk te koppelen aan elke frontend.
-- Ondersteunt **real-time updates**, **images CDN** en **schema-based contentmodeling**.
-
-### 🔹 Waarom dit een interessante optie is
-- Vue is **stabiel en volwassen**, met een grote community.
-- Sanity biedt een **krachtige, visuele CMS-omgeving** voor niet-technische gebruikers.
-- Data is **direct toegankelijk via API** – geen backend of hosting nodig.
-- Perfect voor **snelle prototypes en marketingwebsites**.
-
----
-
-## ⚖️ Vergelijking per categorie
-
-| Categorie | **SvelteKit + Directus (onze keuze)** | **Vue + Sanity (zelfonderzoek)** |
-|------------|--------------------------------------|----------------------------------|
-| 🧠 **Leerbaarheid** | Hogere leercurve, maar diepgaande controle. | Vue is gebruiksvriendelijker en heeft uitgebreide documentatie. |
-| ⚡ **Performance** | SvelteKit compileert naar minimale JS — extreem snel. | Snelle frontend dankzij Vite + on-demand API calls. |
-| 🧩 **Integratie** | Meer setup (database + CMS), maar flexibel en uitbreidbaar. | Zeer eenvoudige integratie met één client (`@sanity/client`). |
-| 🧑‍💻 **Developer Experience** | Volledige controle over data, serverroutes en endpoints. | Snelle setup en iteratie met Vue DevTools en Sanity Studio. |
-| 🧰 **Hosting & Setup** | Vereist eigen database en hostingomgeving. | Sanity host data en CMS in de cloud. |
-| 👩‍💼 **Gebruiksvriendelijkheid voor editors** | Dashboard is functioneel, maar meer databasegericht. | Sanity Studio is visueel en intuïtief. |
-| 🔒 **Beveiliging & controle** | Zelf volledige controle over data en permissies. | API-tokens en role-based access in de Sanity cloud. |
-| 🌍 **SEO & SSR** | SSR standaard ingebouwd; sterk voor dynamische SEO. | SSR mogelijk via Nuxt of prerendering. |
-| 🔮 **Schaalbaarheid** | Schaalt mee met de database en hostingconfiguratie. | Automatische schaalbaarheid via Sanity’s cloudinfrastructuur. |
-
----
-
-## 💬 Conclusie
-
-### ✅ Sterke punten van onze keuze (SvelteKit + Directus)
-- Volledige **controle** over data, backend en hosting.  
-- **Open-source** en uitbreidbaar naar complexe projecten.  
-- **SSR standaard ingebouwd** voor optimale performance en SEO.  
-- Geschikt voor **grotere applicaties of educatieve platforms**.
-
-### ⚠️ Zwakke punten van SvelteKit + Directus
-- Complexere setup (database + server vereist).  
-- Iets minder gebruiksv
-
-
-----------------------------------------------------------------------------------------
 ## Mentoring Feedback
 Tekort ---------------------------- Teveel
 
@@ -111,6 +23,11 @@ Tekort ---------------------------- Teveel
 - Meer feedback in issues
 - Wat vaker aanwezig zijn of compenseren als ik niet aanwezig kan zijn op een mentoring dag
 
+### Feedback Studenten Eerste Jaars
+![EDF27D73-60BC-4CCE-A9C9-35EE71B26260_1_105_c](https://github.com/user-attachments/assets/6ace1463-b842-44e8-9637-7e0cbb22567b)
+
+
+----------------------------------------------------------------------------------------
 
 ## We love Web - Spreekuren
 
