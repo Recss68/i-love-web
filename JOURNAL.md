@@ -51,6 +51,29 @@ Tool voor compressie
 
 --
 
+we love web over toegankelijkheid Ischa Gast
+
+hoeveel mensen hebben een beperking: 100% heeft een beperking bijv een motorische een cognitief en een visueel etc
+
+gebruik correcte html correcte koppen structuur gebruiken
+
+gebruik goede focus styles
+
+gebruik goede contrast
+
+makkelijkste manier om accesibility te testen is gewoon door je website tabben
+
+samenvatting: Wat ik hier heb geleerd is dat er nogsteeds te weinig applicaties zijn voor mensen die beperkt zijn hier liet hij ook zien hoe bijv mensen met een beperking dagelijks te maken hebben met hun beperkingen door een voorbeeld te laten zien van iemand die blind is en iemand die kleuren blind is hij probeerde in deze we love web duidelijk te maken hoe belangrijk het is om hiermee rekening te houden en dat het echt niet zo heel moeilijk is om te doen want het begint al bij het schrijven van goede toegankelijke html en als we op die manier te werk gaan we het web voor iedereen toegankelijk kunnen proberen te maken
+Hidde de Vries (deel gemist)
+
+Hidde de vries gaf een we love web over het verduurzamen van het web en hoeveel websites co2 uitstoten en hoeveel impact dat heeft op het milieu dit kwam dus ook omdat het ontzettend veel stroom kost om al die websites op het web te laten runnen en al dat stroom moet worden geproduceerd en dat zorgt dus ook voor de heftige co2 uitstoot
+
+Later in de we love web vertelde Hidde ook over hoeveel impact ai heeft op het milieu door alle data centras die worden gebouwd want zulke data centras zijn enorm en zorgen er dus voor dat al die ai’s werken maar ook zulke data centrums zitten vol met computers die dus draaiende moeten blijven wat dus ook heel veel stroom kost en slecht is voor het milieu
+
+Hij vertelde op watvoor manieren wij als developers te werk kunnen gaan om het web duurzamer te maken hij gaf tips zoals
+
+Het gebruiken energie zuinige kleuren die minder stroom verbruiken voor bepaalde soorten schermen en hij vertelde dat je ook kan kiezen voor hosting providers die milieu bewust te werk gaan “groene hosting providers” en het blijven testen van websites op basis van tools zoals een website Carbon calculator of ecograder
+
 14-2-2025 - Kilian Valkhof
 
 - Oprichter van Polypane
