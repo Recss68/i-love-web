@@ -74,6 +74,8 @@ Hij vertelde op watvoor manieren wij als developers te werk kunnen gaan om het w
 
 Het gebruiken energie zuinige kleuren die minder stroom verbruiken voor bepaalde soorten schermen en hij vertelde dat je ook kan kiezen voor hosting providers die milieu bewust te werk gaan “groene hosting providers” en het blijven testen van websites op basis van tools zoals een website Carbon calculator of ecograder
 
+---
+
 14-2-2025 - Kilian Valkhof
 
 - Oprichter van Polypane
